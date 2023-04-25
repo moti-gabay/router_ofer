@@ -1,0 +1,23 @@
+צרו את הראוט הבא בשם songs כולל את המודל שלו 
+
+והסכמה שלו תראה כך:
+title:string
+year:number,
+singer/band:string,
+youtube_url:string,
+genere:string
+
+יש להוסיף את התאריך
+
+
+שימו לב להוסיף בבקשת GET
+הרגילה גם אפשרות לעבור בין עמודים עם SKIP ו LIMIT, כאשר ה LIMIT יהיה 3 כך שיוצג 3 שירים בבקשה ויהיה ניתן לעבור בין עמודים
+{
+
+   "title":"titl1",
+"year":"1998",
+"band":"day8",
+"youtube_url":"https://yuoube.co.il/",
+"genere":"pop"
+
+}
